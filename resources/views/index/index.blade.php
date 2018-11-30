@@ -20,7 +20,7 @@
       <ul id="starlist">
         <li><a href="{{route('index')}}">首页</a></li>
         <li><a href="{{route('about')}}">关于我</a></li>
-        <li><a href="#">点此登录</a></li>
+        <li><a href="{{route('login')}}">点此登录后台</a></li>
       </ul>
     </nav>
     <div class="searchico"></div>
