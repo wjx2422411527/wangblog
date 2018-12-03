@@ -26,7 +26,7 @@
             <xblock>
                 <button class="layui-btn layui-btn-danger" onclick="delAll()">
                 <i class="layui-icon">&#xe640;</i>批量删除</button>
-                <button class="layui-btn" onclick="banner_add('添加用户','banner-add.html','600','500')">
+                <button class="layui-btn" onclick="banner_add('添加用户','{{route('banneradd')}}','600','500')">
                     <i class="layui-icon">&#xe608;</i>添加
                 </button>
                 <span class="x-right" style="line-height:40px">共有数据：88 条</span>

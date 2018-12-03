@@ -49,3 +49,13 @@ Route::get('set','SetController@set')->name('set');
 Route::get('shield','ShieldController@shield')->name('shield');
 // 显示友情链接
 Route::get('syslink','SyslinkController@syslink')->name('syslink');
+// 显示问题添加页面
+Route::get('add','AddController@add')->name('add');
+// 显示轮播添加页面
+Route::get('banneradd','BanneraddController@banneradd')->name('banneradd');
+// 显示会员添加页面
+Route::get('memberadd','MemberaddController@memberadd')->name('memberadd');
+// 显示管理员添加页面
+Route::get('adminadd','AdminaddController@adminadd')->name('adminadd');
+// 显示角色添加页面
+Route::get('roleadd','RoleaddController@roleadd')->name('roleadd');

@@ -36,7 +36,7 @@
                             <i class="layui-icon" style="top: 1px;">&#xe63a;</i>
                         </a>
                         </li>
-                      <li class="layui-nav-item"><a href="/">前台首页</a></li>
+                      <li class="layui-nav-item"><a href="{{route('index')}}">前台首页</a></li>
                     </ul>
                 </div>
             </div>
