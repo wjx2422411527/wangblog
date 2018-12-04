@@ -35,7 +35,8 @@
                     <img src="./images/logo.png" alt="">
                 </div>
                 <div class="input">
-                    <form class="layui-form">
+                    <form class="layui-form" method="POST" action="{{route('dologin')}}">
+                    @csrf
                         <!-- 用户名 -->
                         <div class="layui-form-item x-login-box">
                             <label for="username" class="layui-form-label">
@@ -56,9 +57,8 @@
                             </div>
                         </div>
                         <div class="layui-form-item" id="loginbtn">
-                            <button  class="layui-btn" lay-filter="save" lay-submit="">
-                                登 录
-                            </button>
+                            <input type="submit" class="layui-btn"  value="登 录" lay-submit="">
+                                
                         </div>
                     </form>
                 </div>
@@ -83,11 +83,12 @@
                 form.on('submit(save)',
                 function(data) {
                     console.log(data);
-                    layer.alert(JSON.stringify(data.field), {
-                      title: '最终的提交信息'
-                    },function  () {
-                        location.href = "{{route('admin')}}";
-                    })
+                        layer.alert(JSON.stringify(data.field), {
+                        title: '最终的提交信息',
+                        
+                        },function  () {
+                            // location.href = "{{route('admin')}}";
+                        })
                     return false;
                 });
 

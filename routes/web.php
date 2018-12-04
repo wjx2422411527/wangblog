@@ -23,6 +23,8 @@ Route::get('index','IndexController@index')->name('index');
 Route::get('time','TimeController@time')->name('time');
 // 显示登录页
 Route::get('login','LoginController@login')->name('login');
+// 提交登录表单
+Route::post('dologin','LoginController@dologin')->name('dologin');
 // 显示后台
 Route::get('admin','AdminController@admin')->name('admin');
 // 显示后台桌面
