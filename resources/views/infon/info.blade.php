@@ -10,9 +10,6 @@
 <link href="css/m.css" rel="stylesheet">
 <script src="js/jquery-1.8.3.min.js" ></script>
 <script src="js/comm.js"></script>
-<!--[if lt IE 9]>
-<script src="js/modernizr.js"></script>
-<![endif]-->
 </head>
 <body>
 <!--top begin-->
@@ -90,10 +87,9 @@
     </div>
 
     <div class="whitebg gbook">
-      <h2 class="htitle">文章评论</h2>
-      <ul>
-      </ul>
+      <h2 class="htitle">你是不是也记得你多久没有说爱我</h2>
     </div>
+
   </div>
   <!--lbox end-->
   <div class="rbox">
