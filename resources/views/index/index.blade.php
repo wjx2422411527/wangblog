@@ -183,24 +183,44 @@
         <div class="newsitem" >
           <div class="newspic">
             <ul>
-              <li><a href="{{route('info')}}"><img src="images/h2.jpg"><span>个人博客，属于我的小世界！</span></a></li>
-              <li><a href="{{route('info')}}"><img src="images/h1.jpg"><span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的</span></a></li>
+              <li>
+                <a href="{{route('info')}}">
+                  <img src="images/h2.jpg">
+                  <span>个人博客，属于我的小世界！</span>
+                </a>
+              </li>
+              <li>
+                <a href="{{route('info')}}">
+                  <img src="images/h1.jpg">
+                  <span>个人网站做好了，百度不收录怎么办？来，看看他们怎么做的</span>
+                </a>
+              </li>
             </ul>
           </div>
           <ul class="newslist">
-            <li><i></i><a href="{{route('info')}}">我是怎么评价自己的？</a>
+            <li>
+              <i></i>
+              <a href="{{route('info')}}">我是怎么评价自己的？</a>
               <p>为了挨打轻一些，问我哪里来的，我瞎说了一个说那个谁家的，结果，打得更凶。最后事情还原了真相，我妈说，你要说说奶奶家的，都不会打你了。从此以后，我知道撒谎是会付出更惨痛的代价的，我不再撒谎，也不喜欢爱撒谎的人。</p>
             </li>
-            <li><i></i><a href="{{route('info')}}">个人博客，属于我的小世界！</a>
+            <li>
+              <i></i>
+              <a href="{{route('info')}}">个人博客，属于我的小世界！</a>
               <p>个人博客，用来做什么？我刚开始就把它当做一个我吐槽心情的地方，也就相当于一个网络记事本，写上一些关于自己生活工作中的小情小事，也会放上一些照片，音乐。每天工作回家后就能访问自己的网站，一边听着音乐，一边写写文章。</p>
             </li>
-            <li><i></i><a href="{{route('info')}}">安静地做一个爱设计的女子</a>
+            <li>
+              <i></i>
+              <a href="{{route('info')}}">安静地做一个爱设计的女子</a>
               <p>自从入了这行，很多人跟我说可以做网络教程，我也有考虑，但最终没有实现，因为我觉得在这个教程泛滥的时代，直接做一套免费的原创个人博客模板更为实在。</p>
             </li>
-            <li><i></i><a href="{{route('info')}}">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a>
+            <li>
+              <i></i>
+              <a href="{{route('info')}}">个人网站做好了，百度不收录怎么办？来，看看他们怎么做的。</a>
               <p>不管你是学前端的还是后端的，作为一个程序员，做一个自己的博客，那是必然的。咱们的圈子就这么大，想让更多的人了解你，看看你的技术多牛逼，扔一个博客地址就行了</p>
             </li>
-            <li><i></i><a href="{{route('info')}}">做个人博客如何用帝国cms美化留言增加头像选择</a>
+            <li>
+              <i></i>
+              <a href="{{route('info')}}">做个人博客如何用帝国cms美化留言增加头像选择</a>
               <p>帝国cms的留言板系统很简单，用户名，邮箱，电话，没有头像显示，如果要增加头像选择，而又不增加表或者字段的情况下，选择改用其中一个字段，比如电话这个，修改一下即可</p>
             </li>
           </ul>
@@ -211,12 +231,65 @@
     <div class="zhuanti whitebg">
       <h2 class="htitle">精彩专题</h2>
       <ul>
-        <li> <i class="ztpic"><a href="{{route('info')}}" target="_blank"><img src="images/1.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="{{route('info')}}" target="_blank"><img src="images/2.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="{{route('info')}}" target="_blank"><img src="images/3.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="{{route('info')}}" target="_blank"><img src="images/4.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="{{route('info')}}" target="_blank"><img src="images/h2.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a> </li>
-        <li> <i class="ztpic"><a href="{{route('info')}}" target="_blank"><img src="images/h1.jpg"></a></i> <b>个人博客模板《今夕何夕》-响应式个人...</b><span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span><a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a> </li>
+        <li>
+          <i class="ztpic">
+            <a href="{{route('info')}}" target="_blank">
+              <img src="images/1.jpg">
+            </a>
+          </i>
+          <b>个人博客模板《今夕何夕》-响应式个人...</b>
+          <span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span>
+          <a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a>
+        </li>
+        <li>
+          <i class="ztpic">
+            <a href="{{route('info')}}" target="_blank">
+              <img src="images/2.jpg">
+            </a>
+          </i>
+          <b>个人博客模板《今夕何夕》-响应式个人...</b>
+          <span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span>
+          <a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a>
+        </li>
+        <li>
+          <i class="ztpic">
+            <a href="{{route('info')}}" target="_blank">
+              <img src="images/3.jpg">
+            </a>
+          </i>
+          <b>个人博客模板《今夕何夕》-响应式个人...</b>
+          <span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span>
+          <a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a>
+        </li>
+        <li>
+          <i class="ztpic"><a href="{{route('info')}}" target="_blank">
+            <img src="images/4.jpg">
+          </a>
+        </i>
+        <b>个人博客模板《今夕何夕》-响应式个人...</b>
+        <span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span>
+        <a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a>
+      </li>
+        <li>
+          <i class="ztpic">
+            <a href="{{route('info')}}" target="_blank">
+              <img src="images/h2.jpg">
+            </a>
+          </i>
+          <b>个人博客模板《今夕何夕》-响应式个人...</b>
+          <span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span>
+          <a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a>
+        </li>
+        <li>
+          <i class="ztpic">
+            <a href="{{route('info')}}" target="_blank">
+              <img src="images/h1.jpg">
+            </a>
+          </i>
+          <b>个人博客模板《今夕何夕》-响应式个人...</b>
+          <span>个人博客模板《今夕何夕》，宽屏响应式个人博客模板，采用冷色系为主，固定导航栏和侧边栏，无缝滚动图片...</span>
+          <a href="{{route('info')}}" target="_blank" class="readmore">文章阅读</a>
+        </li>
       </ul>
     </div>
     <div class="whitebg bloglist">
@@ -350,9 +423,9 @@
     </div>
     <div class="endnav">
       <p><b>站点声明：</b></p>
-      <p>1、本站个人博客模板，别人送我的,不是盗我的，我就个人可以使用，不用于商业使用,请原创放心</p>
-      <p>2、一下术语原创:所有文章未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任。举报邮箱：<a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=HHh9cn95b3F1cHVye1xtbTJ-c3E" target="_blank">dacesmiling@qq.com</a></p>
-      <p>Copyright © <a href="http://www.yangqq.com" target="_blank">www.yangqq.com</a> All Rights Reserved. 备案号：<a href="http://www.miitbeian.gov.cn/" target="_blank">蜀ICP备11002373号-1</a></p>
+      <p>1、本网站属于杨青青不属于本人</p>
+      <p>2、一下术语原创:所有文章未经授权禁止转载、摘编、复制或建立镜像，如有违反，追究法律责任。举报邮箱：<a href="#" target="_blank">这个是举报邮箱</a></p>
+      <p>Copyright © <a href="#" target="_blank">这个是网址</a> All Rights Reserved. 备案号：<a href="#" target="_blank">这个是备案号</a></p>
     </div>
   </div>
   <a href="#">
