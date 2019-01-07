@@ -67,7 +67,7 @@
                             具有至高无上的权利
                         </td>
                         <td class="td-manage">
-                            <a title="编辑" href="javascript:;" onclick="role_edit('编辑','role-edit.html','4','','510')"
+                            <a title="编辑" href="javascript:;" onclick="role_edit('编辑','{{route('roleedit')}}','4','','510')"
                             class="ml-5" style="text-decoration:none">
                                 <i class="layui-icon">&#xe642;</i>
                             </a>

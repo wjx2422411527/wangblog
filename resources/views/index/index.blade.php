@@ -343,7 +343,8 @@
               <span>王景笑</span>
               <span>2018-10-28</span>
             </p>
-          <a href="{{route('info')}}" class="viewmore">阅读更多</a> </li>
+            <a href="{{route('info')}}" class="viewmore">阅读更多</a>
+          </li>
       </ul>
     </div>
     <!--bloglist end--> 
@@ -430,6 +431,7 @@
   </div>
   <a href="#">
   <div class="top"></div>
-  </a> </footer>
+  </a> 
+</footer>
 </body>
 </html>

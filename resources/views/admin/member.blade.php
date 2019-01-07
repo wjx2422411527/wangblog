@@ -116,11 +116,11 @@
                             <a style="text-decoration:none" onclick="member_stop(this,'10001')" href="javascript:;" title="停用">
                                 <i class="layui-icon">&#xe601;</i>
                             </a>
-                            <a title="编辑" href="javascript:;" onclick="member_edit('编辑','member-edit.html','4','','510')"
+                            <a title="编辑" href="javascript:;" onclick="member_edit('编辑','{{route('memberedit')}}','4','','510')"
                             class="ml-5" style="text-decoration:none">
                                 <i class="layui-icon">&#xe642;</i>
                             </a>
-                            <a style="text-decoration:none"  onclick="member_password('修改密码','member-password.html','10001','600','400')"
+                            <a style="text-decoration:none"  onclick="member_password('修改密码','{{route('password')}}','10001','600','400')"
                             href="javascript:;" title="修改密码">
                                 <i class="layui-icon">&#xe631;</i>
                             </a>

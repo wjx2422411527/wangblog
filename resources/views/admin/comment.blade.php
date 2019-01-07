@@ -87,7 +87,6 @@
                     </tr>
                 </tbody>
             </table>
-
             <div id="page"></div>
         </div>
         <script src="./lib/layui/layui.js" charset="utf-8"></script>
@@ -99,12 +98,7 @@
               laypage = layui.laypage;//分页
               layer = layui.layer;//弹出层
               form = layui.form();//弹出层
-
-
           })
-
-              
-
               //以上模块根据需要引入
 
             //批量删除提交
@@ -114,8 +108,6 @@
                     layer.msg('删除成功', {icon: 1});
                 });
              }
-            
-            
             /*删除*/
             function commemt_del(obj,id){
                 layer.confirm('确认要删除吗？',function(index){

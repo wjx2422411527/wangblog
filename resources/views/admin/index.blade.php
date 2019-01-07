@@ -18,8 +18,8 @@
         <div class="layui-layout layui-layout-admin">
             <div class="layui-header header header-demo">
                 <div class="layui-main">
-                    <a class="logo" href="./index.html">
-                        X-admin v1.0
+                    <a class="logo" href="{{route('index')}}">
+                        前端入口
                     </a>
                     <ul class="layui-nav" lay-filter="">
                       <li class="layui-nav-item"><img src="./images/logo.png" class="layui-circle" style="border: 2px solid #A9B7B7;" width="35px" alt=""></li>
@@ -57,7 +57,7 @@
                                 </dd>
                                 <dd class="">
                                     <dd class="">
-                                        <a href="javascript:;" _href="./question-del.html">
+                                        <a href="javascript:;" _href="{{route('del')}}">
                                             <cite>删除问题</cite>
                                         </a>
                                     </dd>

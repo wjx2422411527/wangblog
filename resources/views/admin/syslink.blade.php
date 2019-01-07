@@ -82,7 +82,7 @@
                             0
                         </td>
                         <td class="td-manage">
-                            <a title="编辑" href="javascript:;" onclick="link_edit('编辑','link-edit.html','4','','510')"
+                            <a title="编辑" href="javascript:;" onclick="link_edit('编辑','{{route('linkedit')}}','4','','510')"
                             class="ml-5" style="text-decoration:none">
                                 <i class="layui-icon">&#xe642;</i>
                             </a>
@@ -109,7 +109,7 @@
                             0
                         </td>
                         <td class="td-manage">
-                            <a title="编辑" href="javascript:;" onclick="link_edit('编辑','link-edit.html','4','','510')"
+                            <a title="编辑" href="javascript:;" onclick="link_edit('编辑','{{route('linkedit')}}','4','','510')"
                             class="ml-5" style="text-decoration:none">
                                 <i class="layui-icon">&#xe642;</i>
                             </a>
@@ -139,7 +139,7 @@
                 console.log(data);
                 //发异步，把数据提交给php
                 layer.alert("增加成功", {icon: 6});
-                $('#x-link').prepend('<tr><td><input type="checkbox"value="1"name=""></td><td>1</td><td>'+data.field.name+'</td><td>'+data.field.link+'</td><td>0</td><td class="td-manage"><a title="编辑"href="javascript:;"onclick="link_edit(\'编辑\',\'link-edit.html\',\'4\',\'\',\'510\')"class="ml-5"style="text-decoration:none"><i class="layui-icon">&#xe642;</i></a><a title="删除"href="javascript:;"onclick="link_del(this,\'1\')"style="text-decoration:none"><i class="layui-icon">&#xe640;</i></a></td></tr>');
+                $('#x-link').prepend('<tr><td><input type="checkbox"value="1"name=""></td><td>1</td><td>'+data.field.name+'</td><td>'+data.field.link+'</td><td>0</td><td class="td-manage"><a title="编辑"href="javascript:;"onclick="link_edit(\'编辑\',\'{{route('linkedit')}}\',\'4\',\'\',\'510\')"class="ml-5"style="text-decoration:none"><i class="layui-icon">&#xe642;</i></a><a title="删除"href="javascript:;"onclick="link_del(this,\'1\')"style="text-decoration:none"><i class="layui-icon">&#xe640;</i></a></td></tr>');
                 return false;
               });
             })

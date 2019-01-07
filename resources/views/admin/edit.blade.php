@@ -21,14 +21,14 @@
                         标题
                     </label>
                     <div class="layui-input-block">
-                        <input type="text" id="L_title" name="title" required lay-verify="title"
+                        <input type="text" id="L_title" name="title" required lay-verify="title" value="layDate如何设置最小时间为当前" 
                         autocomplete="off" class="layui-input">
                     </div>
                 </div>
                 <div class="layui-form-item layui-form-text">
                     <div class="layui-input-block">
                         <textarea id="L_content" name="content" 
-                        placeholder="请输入内容" class="layui-textarea fly-editor" style="height: 260px;"></textarea>
+                        placeholder="请输入内容" class="layui-textarea fly-editor" style="height: 260px;">请教layDate如何设置最小时间为当前,使用min: laydate.now()的时候只能设置日期，不能设置时间；</textarea>
                     </div>
                     <label for="L_content" class="layui-form-label" style="top: -2px;">
                         描述
@@ -49,7 +49,7 @@
                                     <option value="3">LayIM即时通讯</option>
                                 </optgroup>
                                 <optgroup label="其它交流">
-                                    <option value="100">技术闲谈</option>
+                                    <option selected="" value="100">技术闲谈</option>
                                     <option value="101">建议反馈</option>
                                     <option value="168">官方公告</option>
                                 </optgroup>
@@ -59,7 +59,7 @@
                 </div>
                 <div class="layui-form-item">
                     <button class="layui-btn" lay-filter="add" lay-submit>
-                        立即发布
+                        保存
                     </button>
                 </div>
             </form>
@@ -74,25 +74,19 @@
               var form = layui.form()
               ,layer = layui.layer
               ,layedit = layui.layedit;
-
-
                 layedit.set({
                   uploadImage: {
                     url: "./upimg.json" //接口url
                     ,type: 'post' //默认post
                   }
                 })
-  
             //创建一个编辑器
             editIndex = layedit.build('L_content');
-            
-              
-
               //监听提交
               form.on('submit(add)', function(data){
                 console.log(data);
                 //发异步，把数据提交给php
-                layer.alert("增加成功", {icon: 6},function () {
+                layer.alert("保存成功", {icon: 6},function () {
                     // 获得frame索引
                     var index = parent.layer.getFrameIndex(window.name);
                     //关闭当前frame
@@ -100,8 +94,6 @@
                 });
                 return false;
               });
-              
-              
             });
         </script>
         <script>
@@ -114,5 +106,4 @@
         })();
         </script>
     </body>
-
 </html>

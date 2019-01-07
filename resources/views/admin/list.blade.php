@@ -99,7 +99,7 @@
                             34
                         </td>
                         <td class="td-manage">
-                            <a title="编辑" href="javascript:;" onclick="question_edit('编辑','question-edit.html','4','','510')"
+                            <a title="编辑" href="javascript:;" onclick="question_edit('编辑','{{route('edit')}}','4','','510')"
                             class="ml-5" style="text-decoration:none">
                                 <i class="layui-icon">&#xe642;</i>
                             </a>
@@ -111,7 +111,6 @@
                     </tr>
                 </tbody>
             </table>
-
             <div id="page"></div>
         </div>
         <script src="./lib/layui/layui.js" charset="utf-8"></script>
@@ -123,7 +122,6 @@
               lement = layui.element();//面包导航
               laypage = layui.laypage;//分页
               layer = layui.layer;//弹出层
-
               //以上模块根据需要引入
               laypage({
                 cont: 'page'
@@ -133,7 +131,6 @@
                 ,prev: '<em><</em>'
                 ,next: '<em>></em>'
               }); 
-              
               var start = {
                 min: laydate.now()
                 ,max: '2099-06-16 23:59:59'
@@ -143,7 +140,6 @@
                   end.start = datas //将结束日的初始值设定为开始日
                 }
               };
-              
               var end = {
                 min: laydate.now()
                 ,max: '2099-06-16 23:59:59'
@@ -152,7 +148,6 @@
                   start.max = datas; //结束日选好后，重置开始日的最大日期
                 }
               };
-              
               document.getElementById('LAY_demorange_s').onclick = function(){
                 start.elem = this;
                 laydate(start);
@@ -162,7 +157,6 @@
                 laydate(end);
               }
             });
-
             //批量删除提交
              function delAll () {
                 layer.confirm('确认要删除吗？',function(index){
@@ -170,7 +164,6 @@
                     layer.msg('删除成功', {icon: 1});
                 });
              }
-
              function question_show (argument) {
                 layer.msg('可以跳到前台具体问题页面',{icon:1,time:1000});
              }
@@ -182,7 +175,6 @@
            function question_edit (title,url,id,w,h) {
                 x_admin_show(title,url,w,h); 
             }
-
             /*删除*/
             function question_del(obj,id){
                 layer.confirm('确认要删除吗？',function(index){
