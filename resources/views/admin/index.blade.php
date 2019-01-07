@@ -45,20 +45,13 @@
                     <ul class="layui-nav layui-nav-tree site-demo-nav" lay-filter="side">
                         <li class="layui-nav-item">
                             <a class="javascript:;" href="javascript:;">
-                                <i class="layui-icon" style="top: 3px;">&#xe607;</i><cite>问题管理</cite>
+                                <i class="layui-icon" style="top: 3px;">&#xe607;</i><cite>博客中心</cite>
                             </a>
                             <dl class="layui-nav-child">
                                 <dd class="">
                                     <dd class="">
                                         <a href="javascript:;" _href="{{route('list')}}">
-                                            <cite>问题列表</cite>
-                                        </a>
-                                    </dd>
-                                </dd>
-                                <dd class="">
-                                    <dd class="">
-                                        <a href="javascript:;" _href="{{route('del')}}">
-                                            <cite>删除问题</cite>
+                                            <cite>个人博客</cite>
                                         </a>
                                     </dd>
                                 </dd>

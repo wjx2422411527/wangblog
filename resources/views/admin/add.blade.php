@@ -43,15 +43,12 @@
                             <select lay-verify="required" name="cid">
                                 <option>
                                 </option>
-                                <optgroup label="Layui相关">
-                                    <option value="0">layui</option>
-                                    <option value="2">layer弹层</option>
-                                    <option value="3">LayIM即时通讯</option>
-                                </optgroup>
-                                <optgroup label="其它交流">
-                                    <option value="100">技术闲谈</option>
-                                    <option value="101">建议反馈</option>
-                                    <option value="168">官方公告</option>
+                                <optgroup label="博客中心">
+                                    <option value="0">个人博客</option>
+                                    <option value="2">工作日记</option>
+                                    <option value="3">心路历程</option>
+                                    <option value="3">我的博客</option>
+                                    <option value="3">技术共享</option>
                                 </optgroup>
                             </select>
                         </div>

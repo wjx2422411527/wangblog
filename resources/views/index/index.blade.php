@@ -20,7 +20,6 @@
       <ul id="starlist">
         <li><a href="{{route('index')}}">首页</a></li>
         <li><a href="{{route('about')}}">关于我</a></li>
-        <li><a href="{{route('login')}}">点此登录后台</a></li>
       </ul>
     </nav>
     <div class="searchico"></div>
@@ -76,7 +75,7 @@
           <li><a href="javascrpt::">工作日记</a></li>
           <li><a href="javascrpt::">心路历程</a></li>
           <li><a href="javascrpt::">我的博客</a></li>
-          <li><a href="javascrpt::">前端技术</a></li>
+          <li><a href="javascrpt::">技术共享</a></li>
         </ul>
       </div>
       <div class="newstab">
