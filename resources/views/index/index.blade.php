@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/base.css" rel="stylesheet">
 <link href="css/m.css" rel="stylesheet">
-<script src="js/jquery-1.8.3.min.js" ></script>
+<script src="js/jquery-1.8.3.min.js"></script>
 <script src="js/comm.js"></script>
 </head>
 <body>
@@ -59,7 +59,7 @@
       </div>
     </div>
     <!--banbox end-->
-    <!--headline begin-->
+    <!--headline begin-->`
     <div class="headline">
       <ul>
         <li><a href="{{route('time')}}" title="历史记录"><img src="images/h1.jpg" alt="历史记录"><span>历史记录</span></a></li>
