@@ -11,8 +11,8 @@ class LoginController extends Controller
     public function login(){
         return view('login.login');
     }
-    //                      获取表单元素
-    public function dologin(Request $request){  
+    //                      Request获取表单元素
+    public function dologin(Request $request){
         // 获取用户名和密码
         // 判断用户名和密码是否存在
         if($request->username && $request->pass){
