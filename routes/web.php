@@ -46,8 +46,7 @@ Route::get('role','RoleController@role')->name('role');
 // 显示权限分类
 Route::get('cate','CateController@cate')->name('cate');
 // 显示权限管理
-Route::get('rule','RuleController@rule')->name('rul
-e');
+Route::get('rule','RuleController@rule')->name('rule');
 // 显示系统设置
 Route::get('set','SetController@set')->name('set');
 // 显示屏蔽词

@@ -13,7 +13,7 @@ class LoginController extends Controller
     }
     //                      Request获取表单元素
     public function dologin(Request $request){
-        // 获取用户名和密码
+        // 获取用户名和密码2019
         // 判断用户名和密码是否存在
         if($request->username && $request->pass){
             // 如果存在就和数据库对比是否一致

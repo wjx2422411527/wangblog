@@ -48,7 +48,7 @@
                             </div>
                         </div>
                         <div class="layui-form-item x-login-box">
-                            <label for="pass" class="layui-form-label">
+                            <label for="pass" class="layui-form-label"> 
                                 <i class="layui-icon">&#xe628;</i>
                             </label>
                             <div class="layui-input-inline">
